@@ -1,12 +1,13 @@
 # Frequency-Hopping-Communication-System-FHSS-using-Arduino-MATLAB
 
-📡 Frequency Hopping Communication System (FHSS) using Arduino & MATLAB
-🚀 Project Overview
+🚀# Project Overview
+
 This project demonstrates a Frequency Hopping Spread Spectrum (FHSS) based wireless communication system using Arduino and nRF24L01 modules, with real-time visualization in MATLAB.
 
 Unlike traditional communication systems that use a single frequency, this system dynamically switches across multiple channels to improve reliability and reduce interference.
 
 🎯 Key Highlights
+
 🔁 Frequency hopping across multiple channels (10 → 40 → 70 → 100)
 📡 Wireless communication using nRF24L01
 💻 Real-time MATLAB dashboard
@@ -14,20 +15,27 @@ Unlike traditional communication systems that use a single frequency, this syste
 📶 Channel hopping tracking
 🎯 Signal reliability analysis
 🛰️ Radar-style visualization
-📂 Project Structure
+
+📂# Project Structure
+
 FHSS-Communication-System/ │ ├── Arduino/ │ ├── transmitter.ino │ └── receiver.ino │ ├── MATLAB/ │ └── dashboard.m │ ├── Images/ │ ├── setup1.jpg │ ├── setup2.jpg │ └── setup3.jpg │ ├── Docs/ │ ├── block_diagram.png │ └── report.pdf │ └── README.md
 
-🛠️ Hardware Components
+🛠️# Hardware Components
+
 Arduino UNO R4 Minima (Transmitter)
 Arduino Nano (Receiver)
 nRF24L01 RF Modules (2x)
 Breadboard
 Jumper wires
 USB cables
-💻 Software Requirements
+
+💻# Software Requirements
+
 Arduino IDE
 MATLAB
-🔌 Circuit Connections
+
+🔌# Circuit Connections
+
 nRF24L01	Arduino
 VCC	3.3V ⚠️
 GND	GND
@@ -38,7 +46,7 @@ MOSI	D11
 MISO	D12
 ⚠️ Use a 10µF capacitor between VCC and GND to avoid instability.
 
-⚙️ Working Principle
+⚙️ # Working Principle
 Transmitter generates data packets.
 Data is transmitted using nRF24L01.
 Frequency hopping is applied across predefined channels.
@@ -59,7 +67,8 @@ Active channel radar
 Frequency hopping is a core technology in military communication systems, helping prevent signal jamming and interception.
 It ensures secure, reliable, and resilient communication in critical environments.
 
-▶️ How to Run
+▶️# How to Run
+
 Arduino
 Upload transmitter code to Arduino UNO R4
 Upload receiver code to Arduino Nano
