@@ -74,10 +74,13 @@ It ensures secure, reliable, and resilient communication in critical environment
 ▶️ **How to Run**
 
 **Arduino**
+
 Upload transmitter code to Arduino UNO R4
 Upload receiver code to Arduino Nano
 Verify wiring connections
+
 **MATLAB**
+
 Open dashboard.m
 Set COM port:
 port = "COM9";
