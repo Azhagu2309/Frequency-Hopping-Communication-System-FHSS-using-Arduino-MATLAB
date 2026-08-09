@@ -1,0 +1,2 @@
+# Frequency-Hopping-Communication-System-FHSS-using-Arduino-MATLAB
+This project demonstrates a Frequency Hopping Spread Spectrum(FHSS) based wireless communication system using Arduino,nRF24L01 modules,with real-time visualization in MATLAB. Unlike traditional communication systems that use a single frequency, this system dynamically switches across multiple channels to improve reliability and reduce interference.
